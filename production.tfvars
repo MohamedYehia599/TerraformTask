@@ -1,0 +1,5 @@
+region = "eu-central-1"
+vpc_cidr = "15.0.0.0/16"
+subnet_cidr = "15.0."
+first_availability_zone = "eu-central-1a"
+second_availability_zone = "eu-central-1b"
