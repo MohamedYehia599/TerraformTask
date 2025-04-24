@@ -17,7 +17,7 @@ variable "first_availability_zone" {
 variable "second_availability_zone" {
   type = string
 }
-
+/*
 variable "ses_sender_mail" {
   type = string
 }
@@ -29,7 +29,15 @@ variable "receiver_mail" {
 variable "bucket_name" {
   type = string
 }
+*/
 
+variable "ssh_key_name" {
+  type = string
+}
+
+variable "ssh_key_path" {
+  type = string
+}
 
 
 

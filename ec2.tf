@@ -26,8 +26,8 @@ data "aws_ami" "al-2023" {
 
 
 resource "aws_key_pair" "key" {
-  key_name   = "myDemoKey"  
-  public_key = file("~/.ssh/myDemoKey.pub")
+  key_name   = var.ssh_key_name  
+  public_key = file(var.ssh_key_path)
   tags = {
         Name = "ec2-key"
       }
