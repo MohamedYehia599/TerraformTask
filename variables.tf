@@ -17,3 +17,19 @@ variable "first_availability_zone" {
 variable "second_availability_zone" {
   type = string
 }
+
+variable "ses_sender_mail" {
+  type = string
+}
+
+variable "receiver_mail" {
+  type = string
+}
+
+variable "bucket_name" {
+  type = string
+}
+
+
+
+
